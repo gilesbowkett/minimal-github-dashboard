@@ -1,13 +1,13 @@
 !!! 5
 html(lang="en")
   head
-    title Testing 123
+    title My Repos On GitHub
+    link(href: "http://s3.amazonaws.com/giles/jade_101110/style.css", media: "screen", rel: "stylesheet", type: "text/css")
   body
-    p wtf
-    ul
-      - for(var index in data["repositories"])
-        - var repo = data["repositories"][index]
-        li
-          div
+    div#list_wrapper
+      ul.multiple_columns
+        - for(var index in data["repositories"])
+          - var repo = data["repositories"][index]
+          li
             a(href: repo["url"], title: repo["name"])= repo["name"]
-          div= repo["description"]
+            div= repo["description"]
