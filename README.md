@@ -12,6 +12,8 @@ TODO
 
 Move the assets off Amazon S3; write some server stuff to process png and CSS requests.
 
+Set up `http://minimal-github.gilesb.com/#{username}?p=#{password}` for (insecure but) convenient access to private repos.
+
 Note on Patches/Pull Requests
 -----------------------------
  
