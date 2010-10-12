@@ -9,7 +9,7 @@ http.createServer(function (req, res) {
   }).addListener('complete', function(data, github_response) {
     if (github_response.statusCode == 200) {
       res.writeHead(200, {'Content-Type': 'text/html'});
-      jade.renderFile('view.html', { options: '' }, function(err, html){
+      jade.renderFile('view.jade', { locals: {data: data} }, function(err, html){
         res.end(html);
       });
     }
