@@ -4,8 +4,8 @@ var http = require('http'),
     jade = require('./jade');
 
 http.createServer(function (req, res) {
-  var github_username = req.url.replace(/\//, "");
   if ("favicon.ico" != github_username) {
+    var github_username = req.url.replace(/\//, "");
     rest.get("http://github.com/api/v2/json/repos/show/" + github_username, {
       data: {},
     }).addListener('complete', function(data, github_response) {
@@ -15,6 +15,8 @@ http.createServer(function (req, res) {
           res.end(html);
         });
       }
+    }).addListener('error', function(data) {
+      // I so don't give a shit
     });
   }
 }).listen(3000, "127.0.0.1");
