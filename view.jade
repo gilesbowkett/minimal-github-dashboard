@@ -6,4 +6,8 @@ html(lang="en")
     p wtf
     ul
       - for(var index in data["repositories"])
-        li= data["repositories"][index]["name"]
+        - var repo = data["repositories"][index]
+        li
+          div
+            a(href: repo["url"], title: repo["name"])= repo["name"]
+          div= repo["description"]
