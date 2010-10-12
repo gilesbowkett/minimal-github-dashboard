@@ -7,6 +7,11 @@ So I de-cluttered my GitHub. And anyone can use it too if they want.
 
 To see all repos for a given username, hit `http://minimal-github.gilesb.com/#{username}`. If the username doesn't exist, Minimal GitHub Dashboard will give you no error feedback at all. That doesn't bother me. If it bothers you, fork, add tests, and e-mail me at `gilesb@gmail.com`, or tweet at me (`@gilesgoatboy`). You can't rely on the GitHub dashboard to alert me to your pull request, for reasons which I hope are obvious.
 
+TODO
+----
+
+Move the assets off Amazon S3; write some server shit to process png and CSS requests.
+
 Note on Patches/Pull Requests
 -----------------------------
  
