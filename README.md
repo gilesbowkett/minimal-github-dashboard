@@ -14,6 +14,8 @@ Move the assets off Amazon S3; write some server stuff to process png and CSS re
 
 Set up `http://minimal-github.gilesb.com/#{username}?p=#{password}` for (insecure but) convenient access to private repos.
 
+Sort repos by number of watchers and/or forks.
+
 Note on Patches/Pull Requests
 -----------------------------
  
