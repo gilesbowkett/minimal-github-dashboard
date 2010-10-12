@@ -5,12 +5,12 @@ I loves me some GitHub, but I don't want to see RSS feeds, I don't check the inb
 
 So I de-cluttered my GitHub. And anyone can use it too if they want.
 
-To see all repos for a given username, hit `http://minimal-github.gilesb.com/#{username}`. If the username doesn't exist, Minimal GitHub Dashboard will give you no error feedback at all. That doesn't bother me. If it bothers you, fork, add tests, and e-mail me at `gilesb@gmail.com`, or tweet at me (`@gilesgoatboy`). You can't rely on the GitHub dashboard to alert me to your pull request, for reasons which I hope are obvious.
+To see all repos for a given username, hit `http://minimal-github.gilesb.com/#{username}`. If the username doesn't exist, or GitHub isn't responding to API traffic, or anything else goes wrong, Minimal GitHub Dashboard will give you no error feedback at all. Not even a 404. It will ignore your request completely. That doesn't bother me, but if it bothers you, by all means, fork away, add tests, and e-mail me at `gilesb@gmail.com`, or tweet at me (`@gilesgoatboy`). You can't rely on the GitHub dashboard to alert me to your pull request, for reasons which I hope are obvious.
 
 TODO
 ----
 
-Move the assets off Amazon S3; write some server shit to process png and CSS requests.
+Move the assets off Amazon S3; write some server stuff to process png and CSS requests.
 
 Note on Patches/Pull Requests
 -----------------------------
@@ -21,4 +21,6 @@ Note on Patches/Pull Requests
 * Commit, do not mess with rakefile, version, or history.
   If you want to have your own version, that is fine, but bump version in a commit by itself which I can ignore when I pull.
 * Use a topic branch. This is not bonus points. This is required.
+* Keep the project minimal.
 * Send me a pull request.
+
