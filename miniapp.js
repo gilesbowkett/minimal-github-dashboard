@@ -16,7 +16,7 @@ http.createServer(function (req, res) {
         });
       }
     }).addListener('error', function(data) {
-      // I so don't give a shit
+      // TODO: give a shit
     });
   }
 }).listen(3000, "127.0.0.1");
