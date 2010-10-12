@@ -4,5 +4,6 @@ html(lang="en")
     title Testing 123
   body
     p wtf
-    for(var key in data)
-      p key
+    ul
+      - for(var index in data["repositories"])
+        li= data["repositories"][index]["name"]
