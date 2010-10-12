@@ -42,8 +42,6 @@ ul.multiple_columns li{
   padding: 10px;
   margin: 5px;
   overflow: hidden;
-}
-
-div#description {
+  opacity: 0.76;
 }
 
