@@ -1,7 +1,7 @@
 Minimal GitHub Dashboard
 ========================
 
-I loves me some GitHub, but I don't want to see RSS feeds, I don't check the inbox, and I don't even pay attention to pull requests. I should. I freely admit I should. But I don't. All I want to do is get to my repos or get to repos by other people. I almost always know exactly who, and I almost always know exactly what their username is.
+I loves me some GitHub, but I don't want to see RSS feeds, I don't check the inbox, I have 163 unread notifications as of this writing, and I don't even pay attention to pull requests. I should. I freely admit I should. But I don't. All I want to do is get to my repos or get to repos by other people. I almost always know exactly who, and I almost always know exactly what their username is.
 
 So I de-cluttered my GitHub. And anyone can use it too if they want.
 
