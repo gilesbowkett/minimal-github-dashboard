@@ -8,6 +8,7 @@ html(lang="en")
       ul.multiple_columns
         - for(var index in data["repositories"])
           - var repo = data["repositories"][index]
-          li
-            a(href: repo["url"], title: repo["name"])= repo["name"]
-            div= repo["description"]
+          - if(false == repo["fork"])
+            li
+              a(href: repo["url"], title: repo["name"])= repo["name"]
+              div= repo["description"]

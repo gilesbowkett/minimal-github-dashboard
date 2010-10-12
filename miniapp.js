@@ -4,7 +4,7 @@ var http = require('http'),
     jade = require('./jade');
 
 http.createServer(function (req, res) {
-  rest.get("http://gilesbowkett:Vclg0'$akj@github.com/api/v2/json/repos/show/gilesbowkett", {
+  rest.get("http://github.com/api/v2/json/repos/show/gilesbowkett", {
     data: {},
   }).addListener('complete', function(data, github_response) {
     if (github_response.statusCode == 200) {
