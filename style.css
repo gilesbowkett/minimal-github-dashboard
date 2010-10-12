@@ -45,3 +45,6 @@ ul.multiple_columns li{
   opacity: 0.76;
 }
 
+a#wtf, a#wtf:visited, a#wtf:link {
+  color: silver;
+}
