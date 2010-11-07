@@ -9,7 +9,7 @@ http.createServer(function (req, res) {
     rest.get("http://github.com/api/v2/json/repos/show/" + github_username, {
       data: {},
     }).addListener('complete', function(data, github_response) {
-      if (github_response.statusCode == 200) {
+      if (200 == github_response.statusCode) {
         res.writeHead(200, {'Content-Type': 'text/html'});
         jade.renderFile('view.jade', { locals: {data: data} }, function(err, html){
           res.end(html);
@@ -19,4 +19,4 @@ http.createServer(function (req, res) {
       // TODO: give a shit
     });
   }
-}).listen(3000, "127.0.0.1");
+}).listen(3000, "192.168.0.185");
