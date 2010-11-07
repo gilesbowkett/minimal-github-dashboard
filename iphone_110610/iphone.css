@@ -1,0 +1,51 @@
+body {
+  background-color: white;
+  background-image: url('http://s3.amazonaws.com/giles/jade_101110/github-logo.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #00008B;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 18px;
+  padding-left: 100px;
+}
+
+a, a:link, a:visited {
+  color: #00008B;
+  text-decoration: none;
+  font-variant: small-caps;
+}
+
+a:hover, a:active {
+  color: #7AC5CD;
+  background-color: #00008B;
+}
+
+ul{
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* smaller #list_wrapper for iPhone */
+#list_wrapper{
+  width: 450px;
+  float: right;
+}
+
+/* The wider this li is, the fewer columns there will be */
+ul.multiple_columns li{
+  background-color: #E0EEEE;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  text-align: left;
+  float: left;
+  list-style: none;
+  width: 400px;
+  padding: 10px;
+  margin: 5px;
+  overflow: hidden;
+  opacity: 0.76;
+}
+
+a#wtf, a#wtf:visited, a#wtf:link {
+  color: silver;
+}
